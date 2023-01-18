@@ -152,7 +152,7 @@ body::before {
 	pointer-events: none;
 	box-shadow:inset 0 0 0 1000px var(--backdrop-darkness);
   }
-  div#app-mount {
+  /*div#app-mount*/ .appMount-2yBXZl {
 	  background: var(--backdrop) !important;
   }
   .layer-3QrUeG,
