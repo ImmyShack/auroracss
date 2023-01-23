@@ -140,7 +140,7 @@ TABLE OF CONTENTS
 
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
- body {
+body::before {
 	position: absolute;
 	content: '';
 	height: 100%;
@@ -152,8 +152,8 @@ TABLE OF CONTENTS
 	pointer-events: none;
 	box-shadow:inset 0 0 0 1000px var(--backdrop-darkness);
   }
-  .appMount-2yBXZl {
-	  background-image: var(--backdrop) !important;
+  div#app-mount {
+	  background: var(--backdrop) !important;
   }
   .layer-3QrUeG,
   .layers-3iHuyZ,
